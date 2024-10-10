@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int v,t;
+    cin >> v;
+    cin >> t;
+    if (v>t){
+      cout<<v;
+    }
+    else{
+      cout<<t;
+    }
+    return 0;
+}
