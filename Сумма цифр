@@ -1,0 +1,10 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+  int v;
+  cin>>v;
+  cout<<(v)%10+(v/10)%10+(v/100)%10;
+  return 0;
+}
