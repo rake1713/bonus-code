@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    int x, y, z, c;
+    cin >> x >> y;
+    cin >> z >> c;
+    if (abs(x - z) <= 1 && abs(y - c) <= 1) {
+        cout << "YES" << endl;
+    } else {
+        cout << "NO" << endl;
+    }
+
+    return 0;
+}
