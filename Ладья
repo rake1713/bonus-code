@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x, y, z, a;
+    cin >> x >> y;
+    cin >> z >> a;
+    if (x == z || y == a) {
+        cout << "YES" << endl;
+    } else {
+        cout << "NO" << endl;
+    }
+
+    return 0;
+}
